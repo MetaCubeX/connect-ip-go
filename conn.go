@@ -9,15 +9,15 @@ import (
 	"log"
 	"net"
 	"net/netip"
-	"slices"
 	"sync"
 
+	"golang.org/x/exp/slices"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/http3"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/metacubex/quic-go"
+	"github.com/metacubex/quic-go/http3"
+	"github.com/metacubex/quic-go/quicvarint"
 )
 
 type CloseError struct {

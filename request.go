@@ -3,12 +3,12 @@ package connectip
 import (
 	"errors"
 	"fmt"
-	"net/http"
+	"github.com/metacubex/http"
 	"net/url"
 	"reflect"
 
 	"github.com/dunglas/httpsfv"
-	"github.com/quic-go/quic-go/http3"
+	"github.com/metacubex/quic-go/http3"
 	"github.com/yosida95/uritemplate/v3"
 )
 

@@ -2,16 +2,16 @@ package connectip
 
 import (
 	"context"
-	"crypto/tls"
 	"fmt"
 	"net"
-	"net/http"
 	"net/netip"
 	"testing"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/http3"
+	"github.com/metacubex/http"
+	"github.com/metacubex/quic-go"
+	"github.com/metacubex/quic-go/http3"
+	"github.com/metacubex/tls"
 	"github.com/yosida95/uritemplate/v3"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"

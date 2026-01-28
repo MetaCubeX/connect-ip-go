@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"net/http"
 	"net/url"
 
-	"github.com/quic-go/quic-go/http3"
+	"github.com/metacubex/http"
+	"github.com/metacubex/quic-go/http3"
 	"github.com/yosida95/uritemplate/v3"
 )
 

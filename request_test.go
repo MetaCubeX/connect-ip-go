@@ -1,11 +1,11 @@
 package connectip
 
 import (
-	"net/http"
-	"net/http/httptest"
 	"testing"
 
 	"github.com/dunglas/httpsfv"
+	"github.com/metacubex/http"
+	"github.com/metacubex/http/httptest"
 	"github.com/stretchr/testify/require"
 	"github.com/yosida95/uritemplate/v3"
 )
